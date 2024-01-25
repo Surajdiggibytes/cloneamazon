@@ -1,0 +1,421 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navlogo{
+    height: 60px;
+    width: 120px;
+    margin-top: 18px; 
+}
+
+.logo{
+    background-image: url("/images/amazon_logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+    margin: 1%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+    cursor:default;
+}
+
+.nav-add{
+    padding: 0px 9px;
+    margin: 20px 2px 5px 3px;
+    width: 60px;
+    height: 40px;
+}
+
+.add1{
+    color: #cccccc;
+    font-size: 12px;
+    margin :3px;
+}
+
+.location{
+    display: flex;
+    margin-top: 2px;
+}
+
+.fa-location-dot{
+    margin-right:3px;
+}
+
+.navsearch{
+    display: flex;
+    padding: 10px 4px 15px 3px;
+    height: 50px;
+    width: 550px;
+    
+}
+
+.nav-opt{
+    background: #e6e6e6;
+    padding: 0px 0px 0px 5px;
+    height: 43px;
+    width: 55px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 8.5px;
+}
+
+.searchinp{
+    height: 40px;
+    width: 450px;
+    margin-top: 8.5px;
+}
+
+.a-solid{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.searchicn{
+    width: 45px;
+    height: 43px;
+    background-color: rgb(241, 218, 8);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 8.5px;
+    
+}
+
+.fa-magnifying-glass{
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 24px;
+    font-size: 19px;
+}
+
+.country{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 12px;
+    
+}
+
+.flag{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png?20230723002237");
+    background-size: cover;
+    height: 28px;
+    width: 42px;
+}
+.lang{
+    height: 27px;
+    width: 55px;
+    margin-left: 7px;
+}
+
+.lang:hover{
+    cursor: pointer;
+}
+
+.nav-sign{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 12px;
+    
+}
+
+.sign1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+.sign2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.item-count{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffe203;
+}
+
+.nav-cart{
+    margin-right: 28px;
+    width : 60px;
+    display:flex;
+}
+
+.nav-cart i{
+    font-size: 40px;
+    margin-top: 18px;
+    
+}
+
+.nav-cart i:hover{
+    cursor: pointer;
+}
+.nav-login{
+    margin-right: 10px;
+    width: 40px;
+}
+.nav-login i{
+    font-size: 36px;
+    margin-top: 18px;
+}
+
+.nav-login i:hover{
+    cursor: pointer;
+}
+
+.signin{
+    width: 80px;
+}
+
+.sign-btn{
+    padding:10px;
+    background-color: #f5e20e;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15x;
+}
+.sign-btn:hover{
+    cursor: pointer;
+    background-color: #c9b519;
+}
+
+
+.panel{
+    padding: 18px;
+    background-color: rgb(85, 83, 83);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius:9px ;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.all-icn i{
+    font-size: 20px;
+}
+
+.all-icn i:hover{
+    cursor: pointer;
+    background-color:#807878;
+}
+
+.all{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.hero-sec{
+    background: url("/images/heroimg.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    
+}
+
+.shopsec{
+    height: 900px;
+    width: 100%;
+    background:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 400px;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: whitesmoke;
+    width: 410px;
+    height: 350px;
+    border-radius: 10px;
+}
+.box h2{
+    margin: 8px;
+}
+
+#more{
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+#more:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.img{
+    margin: 8px;
+    height: 270px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.nav-footer{
+    height: 600px;
+    background-color: black;
+    margin-top: 700px;
+}
+
+.nav-back{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(62, 61, 63);
+    color: #fff;
+}
+
+.nav-back h4{
+    margin-left: 46%;
+    margin-right: 47%;
+}
+
+.nav-back h4:hover{
+    cursor: pointer;
+    background-color: rgb(112, 110, 114);
+}
+.foot{
+    height: 360px;
+    margin-top: 3%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.foot1 h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.foot2 h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot3 h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot4 h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.foot1 h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.foot2 h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot3 h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot4 h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.foot h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.foot1{
+    justify-content: space-evenly;
+}
+
+.crendtials{
+    height: 80px;
+    background-color: #000000;
+    border-top: 0.1px solid rgb(109, 107, 107);
+    display: flex;
+    
+    
+}
+.cnty{
+    background-image: url("/images/amazon_logo.png");
+    height: 60px;
+    width: 100px;
+    background-size: cover;
+    margin-left: 420px;
+}
+
+.language{
+    margin-left: 50px;
+    margin-top: 10px;
+    
+    width: 110px;
+    height: 30px;
+    display: flex;
+}
+
+
+
+.language i{
+    margin: 10%;
+}
+
+.language h5{
+    color: white;
+    margin-top: 10%;
+}
+
+.flag1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png?20230723002237");
+    background-size: cover;
+    height: 28px;
+    width: 45px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.cpy{
+    height: 30px;
+    background-color: #5a5555;
+}
+
+.cpy h5{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-left: 40%;
+    justify-content:last baseline;
+}
+
+.all-border{
+    color: white;
+}
+.all-border:hover{
+    cursor: pointer;
+    background-color: #807878;
+}
