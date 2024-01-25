@@ -21,7 +21,7 @@
 }
 
 .logo{
-    background-image: url("/images/amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 60px;
     width: 100px;
@@ -226,7 +226,7 @@
 }
 
 .hero-sec{
-    background: url("/images/heroimg.jpg");
+    background: url("images/heroimg.jpg");
     background-size: cover;
     height: 600px;
     display: flex;
@@ -364,7 +364,7 @@
     
 }
 .cnty{
-    background-image: url("/images/amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     height: 60px;
     width: 100px;
     background-size: cover;
